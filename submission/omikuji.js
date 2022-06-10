@@ -1,6 +1,7 @@
+let name;
 let username;
 let userresult;
-username = prompt("お名前を教えて下さい");
+username = prompt("お名前を教えて下さい。");
 document.getElementById("name").innerHTML=username;
 
 let rand = Math.floor(Math.random()*5);
@@ -19,4 +20,4 @@ if (rand == 3){
 if (rand == 4){
     userresult = "凶";
 }
-document.getElementById("result").innerHTML = userresult
+document.getElementById("result").innerHTML = userresult;
